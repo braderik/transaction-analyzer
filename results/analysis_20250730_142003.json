@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "analysis_date": "2025-07-30",
+    "target_date": "2025-07-28",
+    "generated_at": "2025-07-30T14:20:03.875757"
+  },
+  "daily_summary": {
+    "status": "no_data",
+    "message": "No transactions found for yesterday"
+  },
+  "trend_analysis": {
+    "status": "insufficient_data"
+  },
+  "predictive_forecasting": {
+    "status": "insufficient_data"
+  },
+  "vendor_analysis": {
+    "status": "insufficient_data"
+  },
+  "comparative_benchmarks": {
+    "status": "no_data"
+  },
+  "opportunity_analysis": {
+    "opportunities": [],
+    "total_potential_savings": 0,
+    "high_priority_count": 0
+  },
+  "budget_sensitivity": {
+    "status": "insufficient_data"
+  },
+  "alerting_habits": {
+    "alerts": [],
+    "habits": {},
+    "alert_count": 0,
+    "habit_insights": []
+  },
+  "data_hygiene": {
+    "status": "no_data"
+  },
+  "cash_flow_health": {
+    "status": "insufficient_data"
+  },
+  "zen_ai_analysis": {
+    "status": "no_data"
+  },
+  "daily_report": "\n\ud83d\udcca DAILY FINANCIAL ANALYSIS REPORT\n=================================\nGenerated: 2025-07-30\nAnalysis Period: 2025-07-28\n\n\ud83c\udfc6 EXECUTIVE SUMMARY\n===================\n\n\ud83c\udfaf KEY INSIGHTS\n===============\n\n\ud83e\udd16 AI ANALYSIS READY\n===================\nUse the following prompts in Claude Code CLI with Zen MCP:\n\n"
+}

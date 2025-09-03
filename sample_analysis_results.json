@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "analysis_date": "2025-07-30",
+    "target_date": "2025-07-29"
+  },
+  "daily_summary": {
+    "basic_summary": {
+      "total_spent": 253.52999999999997,
+      "total_expenses": 8,
+      "average_transaction": 31.691249999999997,
+      "largest_expense": 67.99
+    },
+    "transaction_count": 9,
+    "overspending_analysis": {
+      "date": "2025-07-29",
+      "total_spent": 253.52999999999997,
+      "total_transactions": 8,
+      "categories_analyzed": 4,
+      "overspending_alerts": [
+        {
+          "category": "Food & Dining",
+          "spent": 112.05,
+          "budget": 50.0,
+          "percentage_used": 224.10000000000002,
+          "over_amount": 62.05,
+          "transaction_count": 4,
+          "status": "OVERSPENDING",
+          "severity": "Critical"
+        },
+        {
+          "category": "Shopping",
+          "spent": 67.99,
+          "budget": 40.0,
+          "percentage_used": 169.975,
+          "over_amount": 27.989999999999995,
+          "transaction_count": 1,
+          "status": "OVERSPENDING",
+          "severity": "High"
+        },
+        {
+          "category": "Transportation",
+          "spent": 57.5,
+          "budget": 30.0,
+          "percentage_used": 191.66666666666669,
+          "over_amount": 27.5,
+          "transaction_count": 2,
+          "status": "OVERSPENDING",
+          "severity": "High"
+        }
+      ],
+      "warning_alerts": [],
+      "within_budget": [
+        {
+          "category": "Entertainment",
+          "spent": 15.99,
+          "budget": 25.0,
+          "percentage_used": 63.96000000000001,
+          "over_amount": -9.01,
+          "transaction_count": 1,
+          "status": "WITHIN_BUDGET",
+          "savings": 9.01
+        }
+      ],
+      "recommendations": [
+        "\ud83d\udea8 URGENT: Food & Dining spending is 224% of budget. Consider eliminating non-essential food & dining expenses immediately.",
+        "\u26a0\ufe0f Reduce Shopping spending by $27.99 to stay within budget.",
+        "\u26a0\ufe0f Reduce Transportation spending by $27.50 to stay within budget.",
+        "\u2705 Great job staying within budget for Entertainment! You saved $9.01.",
+        "\ud83d\udca1 Review your spending categories and consider setting stricter limits for problem areas."
+      ],
+      "spending_score": 68,
+      "risk_level": "Medium Risk"
+    }
+  },
+  "opportunity_analysis": {
+    "total_potential_savings": 45.0,
+    "opportunities": [
+      {
+        "type": "reduce_category_spending",
+        "category": "Food & Dining",
+        "potential_savings": 25.0,
+        "action": "Reduce dining out expenses",
+        "priority": "High"
+      },
+      {
+        "type": "reduce_category_spending",
+        "category": "Transportation",
+        "potential_savings": 20.0,
+        "action": "Use public transit more often",
+        "priority": "Medium"
+      }
+    ]
+  },
+  "trend_analysis": {
+    "yesterday_vs_average": {
+      "percentage_change": 15.5
+    }
+  },
+  "zen_ai_analysis": {
+    "formatted_data": "\nTRANSACTION ANALYSIS DATA\n========================\nDate Range: 2025-07-29 to 2025-07-29\nTotal Transactions: 9\nTotal Expenses: 8\nTotal Amount Spent: $253.53\n\nSPENDING BY CATEGORY:\n\nEntertainment:\n  - Total: $15.99\n  - Transactions: 1\n  - Average: $15.99\n  - Budget Limit: $25.00\n  - Status: \u2705 Within Budget\n\nFood & Dining:\n  - Total: $112.05\n  - Transactions: 4\n  - Average: $28.01\n  - Budget Limit: $50.00\n  - Status: \u26a0\ufe0f OVER BUDGET\n\nShopping:\n  - Total: $67.99\n  - Transactions: 1\n  - Average: $67.99\n  - Budget Limit: $40.00\n  - Status: \u26a0\ufe0f OVER BUDGET\n\nTransportation:\n  - Total: $57.50\n  - Transactions: 2\n  - Average: $28.75\n  - Budget Limit: $30.00\n  - Status: \u26a0\ufe0f OVER BUDGET\n\nINDIVIDUAL TRANSACTIONS:\n- 2025-07-29: Starbucks Coffee | $5.50 | Food & Dining\n- 2025-07-29: Lunch at Restaurant | $28.75 | Food & Dining\n- 2025-07-29: Uber Ride | $15.50 | Transportation\n- 2025-07-29: Amazon Purchase | $67.99 | Shopping\n- 2025-07-29: Netflix Subscription | $15.99 | Entertainment\n- 2025-07-29: Grocery Store | $45.30 | Food & Dining\n- 2025-07-29: Gas Station | $42.00 | Transportation\n- 2025-07-29: Dinner Delivery | $32.50 | Food & Dining\n",
+    "gemini_analysis_prompt": "\n\ud83d\udca1 MANUAL STEP REQUIRED:\n=======================\n1. Open Claude Code CLI in terminal: 'claude'\n2. Copy and paste this prompt:\n\n\nUse zen to analyze the following transaction data with gemini pro. Focus on overspending patterns and provide actionable insights.\n\n\nTRANSACTION ANALYSIS DATA\n========================\nDate Range: 2025-07-29 to 2025-07-29\nTotal Transactions: 9\nTotal Expenses: 8\nTotal Amount Spent: $253.53\n\nSPENDING BY CATEGORY:\n\nEntertainment:\n  - Total: $15.99\n  - Transactions: 1\n  - Average: $15.99\n  - Budget Limit: $25.00\n  - Status: \u2705 Within Budget\n\nFood & Dining:\n  - Total: $112.05\n  - Transactions: 4\n  - Average: $28.01\n  - Budget Limit: $50.00\n  - Status: \u26a0\ufe0f OVER BUDGET\n\nShopping:\n  - Total: $67.99\n  - Transactions: 1\n  - Average: $67.99\n  - Budget Limit: $40.00\n  - Status: \u26a0\ufe0f OVER BUDGET\n\nTransportation:\n  - Total: $57.50\n  - Transactions: 2\n  - Average: $28.75\n  - Budget Limit: $30.00\n  - Status: \u26a0\ufe0f OVER BUDGET\n\nINDIVIDUAL TRANSACTIONS:\n- 2025-07-29: Starbucks Coffee | $5.50 | Food & Dining\n- 2025-07-29: Lunch at Restaurant | $28.75 | Food & Dining\n- 2025-07-29: Uber Ride | $15.50 | Transportation\n- 2025-07-29: Amazon Purchase | $67.99 | Shopping\n- 2025-07-29: Netflix Subscription | $15.99 | Entertainment\n- 2025-07-29: Grocery Store | $45.30 | Food & Dining\n- 2025-07-29: Gas Station | $42.00 | Transportation\n- 2025-07-29: Dinner Delivery | $32.50 | Food & Dining\n\n\nPlease analyze:\n1. Spending patterns and trends\n2. Categories where I'm overspending\n3. Unusual or concerning transactions\n4. Recommendations for budget optimization\n5. Behavioral insights about my spending habits\n\nProvide specific, actionable recommendations.\n\n\n3. The results will be your AI-powered transaction analysis!\n\nPrompt saved to: /tmp/zen_analysis_prompt_20250730_141710.txt\n",
+    "openai_analysis_prompt": "\n\ud83d\udca1 MANUAL STEP REQUIRED:\n=======================\n1. Open Claude Code CLI in terminal: 'claude'\n2. Copy and paste this prompt:\n\n\nUse zen to analyze the following transaction data with o3. Provide a logical, systematic analysis focusing on financial optimization.\n\n\nTRANSACTION ANALYSIS DATA\n========================\nDate Range: 2025-07-29 to 2025-07-29\nTotal Transactions: 9\nTotal Expenses: 8\nTotal Amount Spent: $253.53\n\nSPENDING BY CATEGORY:\n\nEntertainment:\n  - Total: $15.99\n  - Transactions: 1\n  - Average: $15.99\n  - Budget Limit: $25.00\n  - Status: \u2705 Within Budget\n\nFood & Dining:\n  - Total: $112.05\n  - Transactions: 4\n  - Average: $28.01\n  - Budget Limit: $50.00\n  - Status: \u26a0\ufe0f OVER BUDGET\n\nShopping:\n  - Total: $67.99\n  - Transactions: 1\n  - Average: $67.99\n  - Budget Limit: $40.00\n  - Status: \u26a0\ufe0f OVER BUDGET\n\nTransportation:\n  - Total: $57.50\n  - Transactions: 2\n  - Average: $28.75\n  - Budget Limit: $30.00\n  - Status: \u26a0\ufe0f OVER BUDGET\n\nINDIVIDUAL TRANSACTIONS:\n- 2025-07-29: Starbucks Coffee | $5.50 | Food & Dining\n- 2025-07-29: Lunch at Restaurant | $28.75 | Food & Dining\n- 2025-07-29: Uber Ride | $15.50 | Transportation\n- 2025-07-29: Amazon Purchase | $67.99 | Shopping\n- 2025-07-29: Netflix Subscription | $15.99 | Entertainment\n- 2025-07-29: Grocery Store | $45.30 | Food & Dining\n- 2025-07-29: Gas Station | $42.00 | Transportation\n- 2025-07-29: Dinner Delivery | $32.50 | Food & Dining\n\n\nPrevious Analysis from Gemini Pro:\n\n\nPlease provide:\n1. Logical analysis of spending efficiency \n2. Mathematical breakdown of budget variances\n3. Risk assessment of current spending patterns\n4. Data-driven recommendations for improvement\n5. Priority ranking of areas needing attention\n\nFocus on concrete, measurable improvements.\n\n\n3. The results will be your AI-powered transaction analysis!\n\nPrompt saved to: /tmp/zen_analysis_prompt_20250730_141710.txt\n",
+    "consensus_prompt": "\n\ud83d\udca1 MANUAL STEP REQUIRED:\n=======================\n1. Open Claude Code CLI in terminal: 'claude'\n2. Copy and paste this prompt:\n\n\nUse zen consensus to get perspectives from both gemini pro and o3 on my spending patterns. \nI want to understand where I'm overspending and get actionable advice.\n\nTransaction Data:\n\nTRANSACTION ANALYSIS DATA\n========================\nDate Range: 2025-07-29 to 2025-07-29\nTotal Transactions: 9\nTotal Expenses: 8\nTotal Amount Spent: $253.53\n\nSPENDING BY CATEGORY:\n\nEntertainment:\n  - Total: $15.99\n  - Transactions: 1\n  - Average: $15.99\n  - Budget Limit: $25.00\n  - Status: \u2705 Within Budget\n\nFood & Dining:\n  - Total: $112.05\n  - Transactions: 4\n  - Average: $28.01\n  - Budget Limit: $50.00\n  - Status: \u26a0\ufe0f OVER BUDGET\n\nShopping:\n  - Total: $67.99\n  - Transactions: 1\n  - Average: $67.99\n  - Budget Limit: $40.00\n  - Status: \u26a0\ufe0f OVER BUDGET\n\nTransportation:\n  - Total: $57.50\n  - Transactions: 2\n  - Average: $28.75\n  - Budget Limit: $30.00\n  - Status: \u26a0\ufe0f OVER BUDGET\n\nINDIVIDUAL TRANSACTIONS:\n- 2025-07-29: Starbucks Coffee | $5.50 | Food & Dining\n- 2025-07-29: Lunch at Restaurant | $28.75 | Food & Dining\n- 2025-07-29: Uber Ride | $15.50 | Transportation\n- 2025-07-29: Amazon Purchase | $67.99 | Shopping\n- 2025-07-29: Netflix Subscription | $15.99 | Entertainment\n- 2025-07-29: Grocery Store | $45.30 | Food & Dining\n- 2025-07-29: Gas Station | $42.00 | Transportation\n- 2025-07-29: Dinner Delivery | $32.50 | Food & Dining\n\n\nPlease get consensus on:\n1. Which spending categories need immediate attention\n2. What my biggest overspending risks are\n3. Top 3 actionable recommendations for improving my budget\n4. Whether my current spending patterns are sustainable\n\nI need a balanced perspective that considers both analytical insights and practical advice.\n\n\n3. The results will be your AI-powered transaction analysis!\n\nPrompt saved to: /tmp/zen_analysis_prompt_20250730_141710.txt\n"
+  }
+}

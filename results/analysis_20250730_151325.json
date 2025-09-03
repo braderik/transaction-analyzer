@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "analysis_date": "2025-07-30",
+    "target_date": "2025-07-29",
+    "generated_at": "2025-07-30T15:13:24.603381"
+  },
+  "daily_summary": {
+    "basic_summary": {
+      "total_transactions": 4,
+      "total_expenses": 4,
+      "total_spent": 71.55,
+      "average_transaction": 17.8875,
+      "largest_expense": 34.0,
+      "category_breakdown": {
+        "sum": {
+          "Bank Fees": 34.0,
+          "Eating Out": 20.58,
+          "Shopping": 16.97
+        },
+        "count": {
+          "Bank Fees": 1,
+          "Eating Out": 1,
+          "Shopping": 2
+        },
+        "mean": {
+          "Bank Fees": 34.0,
+          "Eating Out": 20.58,
+          "Shopping": 8.485
+        }
+      },
+      "daily_total": 71.55
+    },
+    "overspending_analysis": {
+      "date": "2025-07-29",
+      "total_spent": 71.55,
+      "total_transactions": 4,
+      "categories_analyzed": 3,
+      "overspending_alerts": [],
+      "warning_alerts": [],
+      "within_budget": [
+        {
+          "category": "Shopping",
+          "spent": 16.97,
+          "budget": 40.0,
+          "percentage_used": 42.425,
+          "over_amount": -23.03,
+          "transaction_count": 2,
+          "status": "WITHIN_BUDGET",
+          "savings": 23.03
+        }
+      ],
+      "recommendations": [
+        "\u2705 Great job staying within budget for Shopping! You saved $23.03."
+      ],
+      "spending_score": 100,
+      "risk_level": "Excellent"
+    },
+    "transaction_count": 4,
+    "expense_count": 4,
+    "largest_expense": {
+      "amount": 34.0,
+      "description": "Overdraft Fee for a $424.14 Item - Details: American Express Ach Pmt M2422 Web Id: 2005032111"
+    }
+  },
+  "trend_analysis": {
+    "weekly_average_daily": 453.2414285714285,
+    "yesterday_vs_average": {
+      "amount": 71.55,
+      "difference": -381.6914285714285,
+      "percentage_change": -84.21371139317108
+    },
+    "category_trends": {
+      "Transfer": {
+        "average_daily": 405.6666666666667,
+        "trend_direction": "increasing",
+        "variance": 89106.33333333334,
+        "trend_slope": 264.9999999999999
+      },
+      "Shopping": {
+        "average_daily": 16.753333333333334,
+        "trend_direction": "decreasing",
+        "variance": 34.316233333333344,
+        "trend_slope": -2.765000000000002
+      },
+      "Restaurants": {
+        "average_daily": 17.146666666666665,
+        "trend_direction": "increasing",
+        "variance": 132.0620333333333,
+        "trend_slope": 6.619999999999994
+      },
+      "Subscriptions": {
+        "average_daily": 24.505,
+        "trend_direction": "increasing",
+        "variance": 838.4512499999998,
+        "trend_slope": 40.94999999999999
+      },
+      "Debt Repayment": {
+        "average_daily": 608.5699999999999,
+        "trend_direction": "increasing",
+        "variance": 697545.8497999999,
+        "trend_slope": 1181.1399999999999
+      },
+      "Transportation": {
+        "average_daily": 20.86,
+        "trend_direction": "increasing",
+        "variance": 160.20500000000004,
+        "trend_slope": 17.9
+      }
+    },
+    "volatility_score": 641.7095575992972
+  },
+  "predictive_forecasting": {
+    "daily_spending_rate": 474.0703448275861,
+    "projected_month_total": 14222.110344827583,
+    "days_remaining_in_month": 1,
+    "category_forecasts": {
+      "Housing": {
+        "current_spend": 428.0,
+        "daily_rate": 14.758620689655173,
+        "projected_month_total": 442.7586206896552,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      },
+      "Transfer": {
+        "current_spend": 6652.429999999999,
+        "daily_rate": 229.39413793103446,
+        "projected_month_total": 6881.824137931034,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      },
+      "Shopping": {
+        "current_spend": 407.2,
+        "daily_rate": 14.041379310344826,
+        "projected_month_total": 421.24137931034477,
+        "budget_limit": 1200.0,
+        "projected_over_budget": -778.7586206896552,
+        "will_exceed_budget": "False"
+      },
+      "Bank Fees": {
+        "current_spend": 34.0,
+        "daily_rate": 1.1724137931034482,
+        "projected_month_total": 35.172413793103445,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      },
+      "Eating Out": {
+        "current_spend": 373.72,
+        "daily_rate": 12.886896551724139,
+        "projected_month_total": 386.60689655172416,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      },
+      "Groceries": {
+        "current_spend": 93.03,
+        "daily_rate": 3.2079310344827587,
+        "projected_month_total": 96.23793103448276,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      },
+      "Restaurants": {
+        "current_spend": 213.42,
+        "daily_rate": 7.359310344827586,
+        "projected_month_total": 220.77931034482756,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      },
+      "Subscriptions": {
+        "current_spend": 134.97,
+        "daily_rate": 4.654137931034483,
+        "projected_month_total": 139.62413793103448,
+        "budget_limit": 300.0,
+        "projected_over_budget": -160.37586206896552,
+        "will_exceed_budget": "False"
+      },
+      "Debt Repayment": {
+        "current_spend": 4394.99,
+        "daily_rate": 151.55137931034483,
+        "projected_month_total": 4546.541379310345,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      },
+      "Misc": {
+        "current_spend": 334.9,
+        "daily_rate": 11.548275862068964,
+        "projected_month_total": 346.4482758620689,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      },
+      "Travel": {
+        "current_spend": 26.48,
+        "daily_rate": 0.9131034482758621,
+        "projected_month_total": 27.393103448275863,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      },
+      "Transportation": {
+        "current_spend": 289.65,
+        "daily_rate": 9.987931034482758,
+        "projected_month_total": 299.63793103448273,
+        "budget_limit": 900.0,
+        "projected_over_budget": -600.3620689655172,
+        "will_exceed_budget": "False"
+      },
+      "Medical and Dental": {
+        "current_spend": 43.209999999999994,
+        "daily_rate": 1.4899999999999998,
+        "projected_month_total": 44.699999999999996,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      },
+      "Utilities and Bills": {
+        "current_spend": 75.37,
+        "daily_rate": 2.5989655172413793,
+        "projected_month_total": 77.96896551724137,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      },
+      "Home Improvement": {
+        "current_spend": 144.0,
+        "daily_rate": 4.9655172413793105,
+        "projected_month_total": 148.9655172413793,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      },
+      "Insurance": {
+        "current_spend": 72.67,
+        "daily_rate": 2.5058620689655173,
+        "projected_month_total": 75.17586206896551,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      },
+      "Taxes": {
+        "current_spend": 30.0,
+        "daily_rate": 1.0344827586206897,
+        "projected_month_total": 31.03448275862069,
+        "budget_limit": 0.0,
+        "projected_over_budget": 0,
+        "will_exceed_budget": false
+      }
+    },
+    "high_risk_categories": []
+  },
+  "vendor_analysis": {
+    "top_vendors": {
+      "Zelle payment from Erik Swanson (ally Spending Account x1722) to Erik, Swanson": {
+        "total_spent": 1162.0,
+        "transaction_count": 4,
+        "avg_amount": 290.5
+      },
+      "Payment to Chase card ending in 1799 07/28": {
+        "total_spent": 775.0,
+        "transaction_count": 2,
+        "avg_amount": 387.5
+      },
+      "Cash App*elise Bozzi Squareup.com Oakland, Ca, Us": {
+        "total_spent": 428.0,
+        "transaction_count": 1,
+        "avg_amount": 428.0
+      },
+      "American Express Ach Pmt M2422 Web Id: 2005032111": {
+        "total_spent": 424.14,
+        "transaction_count": 1,
+        "avg_amount": 424.14
+      },
+      "Apple.com/bill 866-712-7753 CA 07/27": {
+        "total_spent": 44.98,
+        "transaction_count": 1,
+        "avg_amount": 44.98
+      },
+      "Overdraft Fee for a $424.14 Item - Details: American Express Ach Pmt M2422 Web Id: 2005032111": {
+        "total_spent": 34.0,
+        "transaction_count": 1,
+        "avg_amount": 34.0
+      },
+      "Zelle payment to Erik Jpm99bgszj3b": {
+        "total_spent": 30.0,
+        "transaction_count": 1,
+        "avg_amount": 30.0
+      },
+      "Mcdonald's F8043 Boonville MO 07/26": {
+        "total_spent": 22.68,
+        "transaction_count": 1,
+        "avg_amount": 22.68
+      },
+      "Zip* App Pay Later 188-82743159 NY 07/24": {
+        "total_spent": 22.5,
+        "transaction_count": 1,
+        "avg_amount": 22.5
+      },
+      "Dd *doordash Starbuck 855-431-0459 CA 07/29": {
+        "total_spent": 20.58,
+        "transaction_count": 1,
+        "avg_amount": 20.58
+      }
+    },
+    "recurring_vendors": "                                                   Abs_Amount  ...     Date\n                                                          sum  ... <lambda>\nDescription                                                    ...         \nPayment to Chase card ending in 1799 07/28              775.0  ...        0\nZelle payment from Erik Swanson (ally Spending ...     1162.0  ...        6\n\n[2 rows x 4 columns]",
+    "category_breakdown": {
+      "sum": {
+        "Bank Fees": 34.0,
+        "Debt Repayment": 1217.1399999999999,
+        "Eating Out": 20.58,
+        "Groceries": 22.970000000000002,
+        "Housing": 428.0,
+        "Medical and Dental": 14.14,
+        "Misc": 7.95,
+        "Restaurants": 51.44,
+        "Shopping": 50.26,
+        "Subscriptions": 49.01,
+        "Transfer": 1217.0,
+        "Transportation": 41.72,
+        "Travel": 18.48
+      },
+      "count": {
+        "Bank Fees": 1,
+        "Debt Repayment": 4,
+        "Eating Out": 1,
+        "Groceries": 2,
+        "Housing": 1,
+        "Medical and Dental": 1,
+        "Misc": 1,
+        "Restaurants": 4,
+        "Shopping": 4,
+        "Subscriptions": 2,
+        "Transfer": 7,
+        "Transportation": 5,
+        "Travel": 1
+      },
+      "mean": {
+        "Bank Fees": 34.0,
+        "Debt Repayment": 304.28499999999997,
+        "Eating Out": 20.58,
+        "Groceries": 11.485000000000001,
+        "Housing": 428.0,
+        "Medical and Dental": 14.14,
+        "Misc": 7.95,
+        "Restaurants": 12.86,
+        "Shopping": 12.565,
+        "Subscriptions": 24.505,
+        "Transfer": 173.85714285714286,
+        "Transportation": 8.344,
+        "Travel": 18.48
+      }
+    },
+    "subscription_candidates": []
+  },
+  "comparative_benchmarks": {
+    "category_comparisons": {
+      "Shopping": {
+        "your_spending": 16.97,
+        "us_average": 30.0,
+        "difference": -13.030000000000001,
+        "percentage_vs_average": 56.56666666666666,
+        "above_average": false
+      }
+    },
+    "overall_vs_average": {
+      "your_total": 71.55,
+      "estimated_us_average": 137.0,
+      "percentage_vs_average": 52.22627737226277
+    }
+  },
+  "opportunity_analysis": {
+    "opportunities": [],
+    "total_potential_savings": 0,
+    "high_priority_count": 0
+  },
+  "budget_sensitivity": {
+    "current_monthly_spend": 13748.039999999997,
+    "scenarios": {
+      "reduce_dining_10": {
+        "description": "Reduce Food & Dining by 10%",
+        "savings": 0.0,
+        "new_total": 13748.039999999997,
+        "percentage_reduction": 0.0
+      },
+      "reduce_shopping_20": {
+        "description": "Reduce Shopping by 20%",
+        "savings": 81.44,
+        "new_total": 13666.599999999997,
+        "percentage_reduction": 0.5923753495043659
+      },
+      "eliminate_entertainment": {
+        "description": "Eliminate Entertainment spending",
+        "savings": 0.0,
+        "new_total": 13748.039999999997,
+        "percentage_reduction": 0.0
+      }
+    },
+    "best_savings_scenario": "reduce_shopping_20"
+  },
+  "alerting_habits": {
+    "alerts": [],
+    "habits": {
+      "day_of_week_patterns": {
+        "sum": {
+          "Friday": 51.839999999999996,
+          "Monday": 1562.02,
+          "Saturday": 34.43,
+          "Sunday": 6.3,
+          "Thursday": 268.55,
+          "Tuesday": 71.55,
+          "Wednesday": 1178.0
+        },
+        "count": {
+          "Friday": 4,
+          "Monday": 12,
+          "Saturday": 2,
+          "Sunday": 1,
+          "Thursday": 7,
+          "Tuesday": 4,
+          "Wednesday": 4
+        }
+      },
+      "highest_spending_day": "Monday",
+      "most_transactions_day": "Monday"
+    },
+    "alert_count": 0,
+    "habit_insights": [
+      "You tend to spend most on Mondays"
+    ]
+  },
+  "data_hygiene": {
+    "uncategorized_count": 0,
+    "uncategorized_transactions": [],
+    "suspicious_transactions": [],
+    "data_quality_score": 100.0
+  },
+  "cash_flow_health": {
+    "weekly_expenses": 3172.6900000000005,
+    "weekly_income": 4820.170000000001,
+    "net_cash_flow": 1647.4800000000005,
+    "expense_to_income_ratio": 0.6582112249153038,
+    "account_breakdown": {
+      "Spending Account": 1661.13,
+      "TOTAL CHECKING": 1511.56
+    },
+    "cash_flow_health": "Positive",
+    "savings_rate": 34.17887750846962
+  },
+  "zen_ai_analysis": {
+    "formatted_data": "\nTRANSACTION ANALYSIS DATA\n========================\nDate Range: 2025-07-29 to 2025-07-29\nTotal Transactions: 4\nTotal Expenses: 4\nTotal Amount Spent: $71.55\n\nSPENDING BY CATEGORY:\n\nBank Fees:\n  - Total: $34.00\n  - Transactions: 1\n  - Average: $34.00\n  - Budget Limit: $0.00\n  - Status: \u2705 Within Budget\n\nEating Out:\n  - Total: $20.58\n  - Transactions: 1\n  - Average: $20.58\n  - Budget Limit: $0.00\n  - Status: \u2705 Within Budget\n\nShopping:\n  - Total: $16.97\n  - Transactions: 2\n  - Average: $8.48\n  - Budget Limit: $40.00\n  - Status: \u2705 Within Budget\n\nINDIVIDUAL TRANSACTIONS:\n- 2025-07-29: Qt 150 309 S. Broadway Oak Grove, Mo, Us | $8.42 | Shopping\n- 2025-07-29: Overdraft Fee for a $424.14 Item - Details: American Express Ach Pmt M2422 Web Id: 2005032111 | $34.00 | Bank Fees\n- 2025-07-29: Amazon Mktpl*tb29b5p Amzn.com/bill WA 07/29 | $8.55 | Shopping\n- 2025-07-29: Dd *doordash Starbuck 855-431-0459 CA 07/29 | $20.58 | Eating Out\n",
+    "gemini_analysis_prompt": "\n\ud83d\udca1 MANUAL STEP REQUIRED:\n=======================\n1. Open Claude Code CLI in terminal: 'claude'\n2. Copy and paste this prompt:\n\n\nUse zen to analyze the following transaction data with gemini pro. Focus on overspending patterns and provide actionable insights.\n\n\nTRANSACTION ANALYSIS DATA\n========================\nDate Range: 2025-07-29 to 2025-07-29\nTotal Transactions: 4\nTotal Expenses: 4\nTotal Amount Spent: $71.55\n\nSPENDING BY CATEGORY:\n\nBank Fees:\n  - Total: $34.00\n  - Transactions: 1\n  - Average: $34.00\n  - Budget Limit: $0.00\n  - Status: \u2705 Within Budget\n\nEating Out:\n  - Total: $20.58\n  - Transactions: 1\n  - Average: $20.58\n  - Budget Limit: $0.00\n  - Status: \u2705 Within Budget\n\nShopping:\n  - Total: $16.97\n  - Transactions: 2\n  - Average: $8.48\n  - Budget Limit: $40.00\n  - Status: \u2705 Within Budget\n\nINDIVIDUAL TRANSACTIONS:\n- 2025-07-29: Qt 150 309 S. Broadway Oak Grove, Mo, Us | $8.42 | Shopping\n- 2025-07-29: Overdraft Fee for a $424.14 Item - Details: American Express Ach Pmt M2422 Web Id: 2005032111 | $34.00 | Bank Fees\n- 2025-07-29: Amazon Mktpl*tb29b5p Amzn.com/bill WA 07/29 | $8.55 | Shopping\n- 2025-07-29: Dd *doordash Starbuck 855-431-0459 CA 07/29 | $20.58 | Eating Out\n\n\nPlease analyze:\n1. Spending patterns and trends\n2. Categories where I'm overspending\n3. Unusual or concerning transactions\n4. Recommendations for budget optimization\n5. Behavioral insights about my spending habits\n\nProvide specific, actionable recommendations.\n\n\n3. The results will be your AI-powered transaction analysis!\n\nPrompt saved to: /tmp/zen_analysis_prompt_20250730_151324.txt\n",
+    "openai_analysis_prompt": "\n\ud83d\udca1 MANUAL STEP REQUIRED:\n=======================\n1. Open Claude Code CLI in terminal: 'claude'\n2. Copy and paste this prompt:\n\n\nUse zen to analyze the following transaction data with o3. Provide a logical, systematic analysis focusing on financial optimization.\n\n\nTRANSACTION ANALYSIS DATA\n========================\nDate Range: 2025-07-29 to 2025-07-29\nTotal Transactions: 4\nTotal Expenses: 4\nTotal Amount Spent: $71.55\n\nSPENDING BY CATEGORY:\n\nBank Fees:\n  - Total: $34.00\n  - Transactions: 1\n  - Average: $34.00\n  - Budget Limit: $0.00\n  - Status: \u2705 Within Budget\n\nEating Out:\n  - Total: $20.58\n  - Transactions: 1\n  - Average: $20.58\n  - Budget Limit: $0.00\n  - Status: \u2705 Within Budget\n\nShopping:\n  - Total: $16.97\n  - Transactions: 2\n  - Average: $8.48\n  - Budget Limit: $40.00\n  - Status: \u2705 Within Budget\n\nINDIVIDUAL TRANSACTIONS:\n- 2025-07-29: Qt 150 309 S. Broadway Oak Grove, Mo, Us | $8.42 | Shopping\n- 2025-07-29: Overdraft Fee for a $424.14 Item - Details: American Express Ach Pmt M2422 Web Id: 2005032111 | $34.00 | Bank Fees\n- 2025-07-29: Amazon Mktpl*tb29b5p Amzn.com/bill WA 07/29 | $8.55 | Shopping\n- 2025-07-29: Dd *doordash Starbuck 855-431-0459 CA 07/29 | $20.58 | Eating Out\n\n\nPrevious Analysis from Gemini Pro:\n\n\nPlease provide:\n1. Logical analysis of spending efficiency \n2. Mathematical breakdown of budget variances\n3. Risk assessment of current spending patterns\n4. Data-driven recommendations for improvement\n5. Priority ranking of areas needing attention\n\nFocus on concrete, measurable improvements.\n\n\n3. The results will be your AI-powered transaction analysis!\n\nPrompt saved to: /tmp/zen_analysis_prompt_20250730_151324.txt\n",
+    "consensus_prompt": "\n\ud83d\udca1 MANUAL STEP REQUIRED:\n=======================\n1. Open Claude Code CLI in terminal: 'claude'\n2. Copy and paste this prompt:\n\n\nUse zen consensus to get perspectives from both gemini pro and o3 on my spending patterns. \nI want to understand where I'm overspending and get actionable advice.\n\nTransaction Data:\n\nTRANSACTION ANALYSIS DATA\n========================\nDate Range: 2025-07-29 to 2025-07-29\nTotal Transactions: 4\nTotal Expenses: 4\nTotal Amount Spent: $71.55\n\nSPENDING BY CATEGORY:\n\nBank Fees:\n  - Total: $34.00\n  - Transactions: 1\n  - Average: $34.00\n  - Budget Limit: $0.00\n  - Status: \u2705 Within Budget\n\nEating Out:\n  - Total: $20.58\n  - Transactions: 1\n  - Average: $20.58\n  - Budget Limit: $0.00\n  - Status: \u2705 Within Budget\n\nShopping:\n  - Total: $16.97\n  - Transactions: 2\n  - Average: $8.48\n  - Budget Limit: $40.00\n  - Status: \u2705 Within Budget\n\nINDIVIDUAL TRANSACTIONS:\n- 2025-07-29: Qt 150 309 S. Broadway Oak Grove, Mo, Us | $8.42 | Shopping\n- 2025-07-29: Overdraft Fee for a $424.14 Item - Details: American Express Ach Pmt M2422 Web Id: 2005032111 | $34.00 | Bank Fees\n- 2025-07-29: Amazon Mktpl*tb29b5p Amzn.com/bill WA 07/29 | $8.55 | Shopping\n- 2025-07-29: Dd *doordash Starbuck 855-431-0459 CA 07/29 | $20.58 | Eating Out\n\n\nPlease get consensus on:\n1. Which spending categories need immediate attention\n2. What my biggest overspending risks are\n3. Top 3 actionable recommendations for improving my budget\n4. Whether my current spending patterns are sustainable\n\nI need a balanced perspective that considers both analytical insights and practical advice.\n\n\n3. The results will be your AI-powered transaction analysis!\n\nPrompt saved to: /tmp/zen_analysis_prompt_20250730_151324.txt\n"
+  },
+  "daily_report": "\n\ud83d\udcca DAILY FINANCIAL ANALYSIS REPORT\n=================================\nGenerated: 2025-07-30\nAnalysis Period: 2025-07-29\n\n\ud83c\udfc6 EXECUTIVE SUMMARY\n===================\nTotal Spent Yesterday: $71.55\nNumber of Transactions: 4\nSpending Risk Level: Excellent\n\n\ud83c\udfaf KEY INSIGHTS\n===============\n\u2022 Yesterday's spending was 84.2% lower than your weekly average\n\n\ud83e\udd16 AI ANALYSIS READY\n===================\nUse the following prompts in Claude Code CLI with Zen MCP:\n\nCONSENSUS ANALYSIS:\n\n\ud83d\udca1 MANUAL STEP REQUIRED:\n=======================\n1. Open Claude Code CLI in terminal: 'claude'\n2. Copy and paste this prompt:\n\n\nUse zen consensus to get perspectives from both gemini pro and o3 on my spending patterns. \nI want to understand where I'm overspending and get actionable advice.\n\nTransaction Data:\n\nTRANSACTION ANALYSIS DATA\n========================\nDate Range: 2025-07-29 to 2025-07-29\nTotal Transactions: 4\nTotal Expenses: 4\nTotal Amount Spent: $71.55\n\nSPENDING BY CATEGORY:\n\nBank Fees:\n  - Total: $34.00\n  - Transactions: 1\n  - Average: $34.00\n  - Budget Limit: $0.00\n  - Status: \u2705 Within Budget\n\nEating Out:\n  - Total: $20.58\n  - Transactions: 1\n  - Average: $20.58\n  - Budget Limit: $0.00\n  - Status: \u2705 Within Budget\n\nShopping:\n  - Total: $16.97\n  - Transactions: 2\n  - Average: $8.48\n  - Budget Limit: $40.00\n  - Status: \u2705 Within Budget\n\nINDIVIDUAL TRANSACTIONS:\n- 2025-07-29: Qt 150 309 S. Broadway Oak Grove, Mo, Us | $8.42 | Shopping\n- 2025-07-29: Overdraft Fee for a $424.14 Item - Details: American Express Ach Pmt M2422 Web Id: 2005032111 | $34.00 | Bank Fees\n- 2025-07-29: Amazon Mktpl*tb29b5p Amzn.com/bill WA 07/29 | $8.55 | Shopping\n- 2025-07-29: Dd *doordash Starbuck 855-431-0459 CA 07/29 | $20.58 | Eating Out\n\n\nPlease get consensus on:\n1. Which spending categories need immediate attention\n2. What my biggest overspending risks are\n3. Top 3 actionable recommendations for improving my budget\n4. Whether my current spending patterns are sustainable\n\nI need a balanced perspective that considers both analytical insights and practical advice.\n\n\n3. The results will be your AI-powered transaction analysis!\n\nPrompt saved to: /tmp/zen_analysis_prompt_20250730_151324.txt\n\n\n"
+}
